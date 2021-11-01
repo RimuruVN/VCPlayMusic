@@ -1,19 +1,10 @@
-<p align="center"><a href="https://t.me/VeezMusicBot"><img src="https://github.com/levina-lab/VeezMusic/raw/main/etc/veezlogo.png"></a></p>
+<p align="center"><a href="https://t.me/VeezMusicBot"><img src="https://image.lag.vn/upload/news/21/09/15/tensei-shitara-slime-datta-ken-tap-48-7_QLNX.jpg"></a></p>
 <p align="center">
-    <br><b>Veez Music is a telegram bot project that's allow you to play music on telegram voice chat group</b><br>
-</p>
-<p align="center">
-    <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
-    <a href="https://app.codacy.com/gh/levina-lab/VeezMusic/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=red&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/levina-lab/VeezMusic"> <img src="https://img.shields.io/github/repo-size/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/commits/main"> <img src="https://img.shields.io/github/last-commit/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/issues"> <img src="https://img.shields.io/github/issues/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>
-    <a href="https://github.com/levina-lab/VeezMusic/network/members"> <img src="https://img.shields.io/github/forks/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
-    <a href="https://github.com/levina-lab/VeezMusic/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/VeezMusic?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
+    <br><b>Rimuru Music là một dự án bot Telegram cho phép bạn phát nhạc trên nhóm trò chuyện thoại trên Telegram</b><br>
 </p>
 
-<h3>Requirements 📝</h3>
+
+<h3>Yêu cầu 📝</h3>
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
@@ -22,30 +13,30 @@
 - [MongoDB](https://cloud.mongodb.com/)
 - [2nd Telegram Account](https://telegram.org/blog/themes-accounts#multiple-accounts) (needed for userbot)
 
-### 🧪 Get `SESSION_NAME` from below:
+### 🧪 Nhận `SESSION_NAME` từ bên dưới:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``Pyrogram``
 
-### 🎖 History
+### 🎖 Lịch sử
 
-[![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/levina-lab/VeezMusic)
+[![Mentioned in Awesome Python](https://awesome.re/mentioned-badge.svg)](https://github.com/RimuruVN/VCPlayMusic)
 
 ## Features 🔮
 
-- Thumbnail Support
-- Playlist Support
-- Youtube, Local playback support
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Keyboard selection support for youtube play
+- Hỗ trợ hình thu nhỏ
+- Hỗ trợ danh sách phát
+- Youtube, hỗ trợ phát lại cục bộ
+- Bảng cài đặt
+- Điều khiển bằng các nút
+- Tự động tham gia userbot
+- Hỗ trợ lựa chọn bàn phím để chơi trên youtube
 - Lyrics Scrapper
-- Unlimited Queue
-- Broadcast Bot
-- Statistic Collector
-- Block / Unblock (restrict user for using your bot)
+- Hàng đợi không giới hạn
+- Bot phát sóng
+- Người thu thập thống kê
+- Chặn / Bỏ chặn (hạn chế người dùng sử dụng bot của bạn)
 
-## Commands 🛠
+## Lệnh 🛠
 
 - `/play <song name>` - play song you requested
 - `/playlist` - Show now playing list
@@ -107,18 +98,3 @@ cp example.env .env # use vim to edit ENVs
 vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file).
 python3 main.py # run the bot.
 ```
-
-### Special Credits 💖
-- [Levina](https://github.com/levina-lab): Dev
-- [Tofik](https://github.com/tofikdn): Dev
-- [Zxce3](https://github.com/Zxce3): Dev
-- [Hyoka-XD](https://github.com/PratheekXD) Contributor
-- [Rajkumar](https://github.com/Awesome-RJ) Contributor
-- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
-- [Original Repo](https://github.com/callsmusic/callsmusic) CallsMusic
-- [Veez Music Bot](https://t.me/veezmusicbot) Our Music Bot
-- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
-- [TeamDaisyX](https://github.com/TeamDaisyX) for base code
-
-### Support & Updates 🎑
-<a href="https://t.me/VeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/levinachannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
